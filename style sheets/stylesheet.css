@@ -26,3 +26,17 @@ header{
     background-color: darkslategray;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+.picture{
+    display: flex;
+    position: relative;
+    flex-direction: inherit;
+}
+
+#projects{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    text-align: center;
+    justify-content: flex-end;
+}
