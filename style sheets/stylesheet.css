@@ -2,7 +2,7 @@ nav{
     display: flex;
     position: static;
     flex-direction: column-reverse;
-    text-align: center;
+    text-align: right;
     font-size: 30px;
 }
 #header{
@@ -22,7 +22,7 @@ header{
 *{
     background-color: darkslategray;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: antiquewhite;
+    color: antiquewhite; 
 }
 
 .picture-1{
@@ -33,11 +33,29 @@ header{
     
 }
 
-#projects{
+.projects{
     display: flex;
     position: relative;
     flex-direction: row;
     text-align: right;
     justify-content: flex-end;
     justify-items: flex-end;
+    flex-wrap: wrap;
+    text-align: right;
+    list-style: none;
+    font-size: 20px;
+}
+
+.bigimage{
+    max-width: 450px;
+    height: auto;
+}
+
+.smallimage{
+    max-width: 300px;
+    height: auto;
+}
+
+.portpic{
+    font-size: 30px;
 }
