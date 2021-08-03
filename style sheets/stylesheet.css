@@ -49,11 +49,13 @@ header{
 .bigimage{
     max-width: 450px;
     height: auto;
+    border-radius: 10px;
 }
 
 .smallimage{
     max-width: 300px;
     height: auto;
+    border-radius: 10px;
 }
 
 .portpic{
