@@ -3,21 +3,18 @@ nav{
     position: static;
     flex-direction: column-reverse;
     text-align: center;
-    color: antiquewhite;
     font-size: 30px;
 }
 #header{
     display: flex;
     position: absolute top;
     flex-direction: row-reverse;
-    color: antiquewhite;
     font-size: 50px;
     font-weight: lighter;
 }
 header{
     display: flex;
     position: static;
-    color: antiquewhite;
     font-size: 75px;
     text-align: center;
     font-weight: bolder;
@@ -25,18 +22,22 @@ header{
 *{
     background-color: darkslategray;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: antiquewhite;
 }
 
-.picture{
+.picture-1{
     display: flex;
     position: relative;
-    flex-direction: inherit;
+    flex-flow: row;
+    border-radius: 10px
+    
 }
 
 #projects{
     display: flex;
     position: relative;
     flex-direction: row;
-    text-align: center;
+    text-align: right;
     justify-content: flex-end;
+    justify-items: flex-end;
 }
