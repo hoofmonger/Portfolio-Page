@@ -52,12 +52,24 @@ header{
     border-radius: 10px;
 }
 
+.bigimage:hover{
+    opacity: 5;
+    resize: 450px;
+}
 .smallimage{
     max-width: 300px;
     height: auto;
     border-radius: 10px;
 }
 
+.smallimage:hover{
+    opacity: 5;
+}
+
 .portpic{
     font-size: 30px;
+}
+
+.portpic:hover{
+    opacity: 5;
 }
