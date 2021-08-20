@@ -61,6 +61,7 @@ header{
     height: auto;
 }
 
+
 .smallimage{
     max-width: 450px;
     height: auto;
@@ -78,10 +79,6 @@ header{
 .portpic{
     font-size: 30px;
    
-}
-
-.portpic:hover{
-    opacity: .5;
 }
 
 #link1{
