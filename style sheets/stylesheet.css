@@ -122,3 +122,23 @@ header{
     align-items: center;
     justify-content: center;
 }
+
+footer{
+    display: flex;
+    align-items: left;
+    align-content: left;
+    text-align: left;
+    flex-direction: column;
+}
+
+.contactHeader{
+font-size: 75px;
+}
+
+.contact{
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-content: left;
+}
+
